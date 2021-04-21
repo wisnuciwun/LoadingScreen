@@ -1,22 +1,16 @@
 import swal from 'sweetalert'
 
-export function LoadingScreen1() {
-
-const loading = (`<i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>`);
-
-swal({
+export function LoadingHandling1() {
 // swal fire modals loading
-text: "Please wait..",
-buttons: false,
-closeOnClickOutside: false,
-closeOnEsc: false,
-content: {
-        element: 'p',
-        attributes: {
-          innerHTML: `${loading}`,
-        },
-      }
-})
+Swal.fire({
+  title: "Please wait..",
+  buttons: false,
+  showConfirmButton: false,
+  showCloseButton: false,
+  html: '<i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>',
+  allowOutsideClick: false,
+  allowEscapeKey: false
+  })
 }
 
 export function LoadingHandling2() {
