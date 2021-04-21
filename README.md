@@ -20,7 +20,9 @@
 ```js
 onCallApi = async () => {
  let url = 'api/blablabla'
- await Axios.post(url)
+ let obj = this.state.data
+ 
+ await Axios.post(url, obj)
  .then(LoadingHandling1()) //or use LoadingHandling2
  .catch(err => {console.log(err))
 }
