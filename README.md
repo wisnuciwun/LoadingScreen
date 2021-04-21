@@ -10,7 +10,7 @@
 
 :eyes: Usage :
 - Put this file to your component directory folder. You can choose to make a new folder or not.
-- import this component and place it after an AJAX call. use " .then() " and " .catch() ". (i recommended to use Axios to make it simple)
+- import this component and place it after an AJAX call. use " .then() " and " .catch() ". (im using Axios)
 
 
 :phone: Parameters :
