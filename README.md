@@ -5,7 +5,7 @@
 ```
 
 :rice: Requirement :
--  sweetalert2
+-  sweetalert2 (i am using 10.16.0 version)
 
 
 :eyes: Usage :
